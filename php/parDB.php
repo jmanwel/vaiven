@@ -2,7 +2,7 @@
 
     define('DBHOST', 'localhost');
     define('DBUSER', 'root');
-    define('DBPASS', 'N4l1S4n$1');
+    define('DBPASS', 'HEr7dst3PBXs97v4');
     define('DB', 'vaivendb');
 
 ?>
