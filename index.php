@@ -1,4 +1,10 @@
-<!doctype html>
+<?php
+
+include_once 'php/sessionCheck.php';
+
+?>
+
+<!DOCTYPE html>
 <html lang="es">
     
     <!--

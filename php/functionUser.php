@@ -9,6 +9,7 @@
         $sql_sentencia = "INSERT INTO user (nick_user,name_user,lastname_user,email_user,pass_user,rol_id) value ('$user','$nombre','$apellido','$email','$password','2')";
         $sql_resultado = mysqli_query($sql_connect, $sql_sentencia);
 
+        /*mostrar esto en un html que luego te redireccione a signin*/
 
         echo 'Se registro correctamente el usuario con los siguientes datos <br>';
 
@@ -31,10 +32,16 @@
 
         if($sql_array['pass_user'] == $password){
 
-            echo 'Se logueo el usuario';
+            session_start();
+            $_SESSION['user'] =  $sql_array['nick_user'];
+            header("Location: ../index.php");
+            exit();
 
         }else{
-            echo 'Usuario o contraseña incorrecta';
+
+            header("Location: ../signIn.php");
+            exit();
+
         }
 
         mysqli_close($sql_connect);

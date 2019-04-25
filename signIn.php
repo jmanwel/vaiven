@@ -39,7 +39,7 @@
                         </div>
                         <button class="btn btn-lg btn-secondary btn-block" type="submit">Sign in</button>
                         <p class="py-4">¿No tenes cuenta? <a href="signUp.html">Click Aquí</a></p>
-                        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                        <p class="mt-5 mb-3 text-muted">&copy; 2019 - NLS</p>
                     </form>
                 </div>
             </div>
