@@ -1,20 +1,18 @@
-create database if not exists vaivendb;
+CREATE DATABASE IF NOT EXISTS vaivendb;
 
-use vaivendb;
+USE vaivendb;
 
-create table if not exists rol(
-id_rol int auto_increment primary key not null,
-description_rol varchar(50) not null);
+CREATE TABLE IF NOT EXISTS rol(
+id_rol INT auto_increment PRIMARY KEY NOT NULL,
+description_rol VARCHAR(50) NOT NULL);
 
-create table if not exists user(
-id_user int auto_increment primary key not null,
-name_user varchar(50) not null,
-lastname_user varchar(50) not null,
-email_user varchar(100) not null,
-pass_user varchar(40) not null,
-rol_id int not null,
-constraint user_id_rol foreign key (rol_id) references rol (id_rol)
+CREATE TABLE IF NOT EXISTS user(
+id_user INT auto_increment PRIMARY KEY NOT NULL,
+nick_user VARCHAR(50)
+name_user VARCHAR(50) NOT NULL,
+lastname_user VARCHAR(50) NOT NULL,
+email_user VARCHAR(100) NOT NULL,
+pass_user VARCHAR(40) NOT NULL,
+rol_id INT NOT NULL,
+CONSTRAINT user_id_rol FOREIGN KEY (rol_id) REFERENCES rol (id_rol)
 );
-
-
-

@@ -1,6 +1,5 @@
-use vaivendb;
+USE vaivendb;
 
-insert into rol (description_rol) values
+INSERT INTO rol (description_rol) VALUES
 ('administrator'),
 ('operator');
-
