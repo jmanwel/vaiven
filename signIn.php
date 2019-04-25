@@ -13,7 +13,7 @@
         <script src="js/myjs.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
         
-        <title>Sign In - ?</title>
+        <title>Sign In - Vaiven</title>
 
 	</head>
 
@@ -21,7 +21,7 @@
         <main role="main">
             <div class="container text-center py-5">
                 <div class="py-2">
-                    <img class="img-fluid mb-4" src="image/.png" alt="Logo" height="250px" width="250px">
+                    <img class="img-fluid mb-4" src="image/logo.png" alt="Logo" height="250px" width="250px">
                     <p class="lead">Por favor ingrese</p>
                 </div>
                 <div class="py-5">    
@@ -39,7 +39,7 @@
                         </div>
                         <button class="btn btn-lg btn-secondary btn-block" type="submit">Sign in</button>
                         <p class="py-4">¿No tenes cuenta? <a href="signUp.html">Click Aquí</a></p>
-                        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                        <p class="mt-5 mb-3 text-muted">&copy; 2019 - NLS</p>
                     </form>
                 </div>
             </div>

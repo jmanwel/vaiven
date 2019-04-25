@@ -1,4 +1,10 @@
-<!doctype html>
+<?php
+
+include_once 'php/sessionCheck.php';
+
+?>
+
+<!DOCTYPE html>
 <html lang="es">
     
     <!--
@@ -25,7 +31,7 @@
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/myjs.js"></script>
 
-		<title>? - Inicio</title>
+		<title>Vaiven - Inicio</title>
 	</head>
 
 	<body>
