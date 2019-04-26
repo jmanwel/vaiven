@@ -67,12 +67,19 @@ include_once 'php/sessionCheck.php';
                         </li>
                     </ul>
                 </div>
+                
+                <!-- 
 
                 <div>
                     <a class="btn btn-secondary" href="signUp.html" target="_blank">Sign up</a>
                     <a class="btn btn-secondary" href="signIn.html" target="_blank">Sign in</a>
                 </div>
-                
+                <div>
+                    <a class="btn btn-secondary" href="signUp.html" target="_blank">Sign out</a>
+                </div>
+
+                -->
+
             </nav>
         </header>
         <main role="main">
