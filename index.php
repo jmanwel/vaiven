@@ -91,7 +91,7 @@ include_once 'php/sessionCheck.php';
             <div class="row card-footer">
                 <div class="col-sm py-2">
                     <p><h4>Indice</h4></p>
-                    <p><a class="p-2 text-muted" href="index.html">HOME</a></p>
+                    <p><a class="p-2 text-muted" href="index.php">HOME</a></p>
                     <p class="p-2 text-muted">A</p>
                     <p style="font-size: 0.75rem; text-indent: 3em"><a class="p-2 text-muted" href="">1</a></p>
                     <p style="font-size: 0.75rem; text-indent: 3em"><a class="p-2 text-muted" href="">2</a>

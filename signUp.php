@@ -67,7 +67,7 @@
                             <br>    
                         </div>    
                         <button class="btn btn-secondary btn-lg btn-block" id="registrar" type="submit">Registrarse</button>
-                        <p class="py-4">¿Ya tenes cuenta? <a href="signIn.html">Click Aquí</a></p>
+                        <p class="py-4">¿Ya tenes cuenta? <a href="signIn.php">Click Aquí</a></p>
                         <p class="mt-5 mb-3 text-muted">&copy; 2019 - NLS</p>
                     </form>
                 </div>
