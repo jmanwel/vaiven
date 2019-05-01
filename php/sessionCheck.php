@@ -4,7 +4,7 @@
 
     if(!isset($_SESSION['user'])){
         session_destroy();
-        header("Location: /prograWeb2/signin.php");
+        header("Location: /vaiven/signin.php");
         exit();
     }
 
