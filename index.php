@@ -22,7 +22,7 @@
         <?php include_once 'html/header.php';?>
 
         <main role="main">
-			<div class="">
+			<div class="container">
 				
 			</div>
         </main>

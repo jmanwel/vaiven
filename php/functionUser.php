@@ -6,7 +6,7 @@
 
         $conexionDB = new conexionDB();
         $sql_connect = $conexionDB->connect();
-        $sql_sentencia = "INSERT INTO user (nick_user,name_user,lastname_user,email_user,pass_user,rol_id) value ('$user','$nombre','$apellido','$email','$password','2')";
+        $sql_sentencia = "INSERT INTO user (nick_user,name_user,lastname_user,email_user,pass_user,activity_user,rol_id) value ('$user','$nombre','$apellido','$email','$password','0','2')";
         $sql_resultado = mysqli_query($sql_connect, $sql_sentencia);
 
         mysqli_close($sql_connect);
