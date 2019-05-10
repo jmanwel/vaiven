@@ -4,7 +4,7 @@
 
     if(!isset($_SESSION['user'])){
         session_destroy();
-        header("Location: /vaiven/signin.php");
+        header("Location: /vaiven/index.php");
         exit();
     }
 
