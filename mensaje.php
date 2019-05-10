@@ -1,5 +1,3 @@
-<?php include_once 'php/sessionCheck.php';?>
-
 <!DOCTYPE html>
 <html lang="es">
     
@@ -19,15 +17,16 @@
 
 	<body>
 
-        <?php include_once 'html/header.php';?>
+        <?php include_once 'html/header.html';?>
 
-        <main role="main">
-			<div class="">
-				
-			</div>
+        <main role="main" style="margin-top: 7rem">
+            <div class="container text-center">
+                <img src="image/mensaje.png">
+                <p><a href="index.php" style="color: black; font-size: 1rem">Redirigirse al inicio</a></p>
+            </div>
         </main>
 
         <?php include_once 'html/footer.html';?>
-        
+
     </body>
 </html>
