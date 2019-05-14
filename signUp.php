@@ -18,7 +18,6 @@
 	</head>
 
     <body>
-        <header></header>
         <main role="main">
             <div class="container text-center py-5">
                 <div class="py-2">
@@ -66,7 +65,7 @@
                         <div>
                             <br>    
                         </div>    
-                        <button class="btn btn-secondary btn-lg btn-block" id="registrar" type="submit">Registrarse</button>
+                        <button class="btn btn-success btn-lg btn-block" id="registrar" type="submit">Registrarse</button>
                         <p class="py-4">¿Ya tenes cuenta? <a href="signIn.php">Click Aquí</a></p>
                         <p class="mt-5 mb-3 text-muted">&copy; 2019 - NLS</p>
                     </form>

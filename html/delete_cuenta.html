@@ -1,0 +1,18 @@
+<form method="POST" action="php/.php" enctype="multipart/form-data">
+    <p>El siguiente proceso eliminara la cuenta mencionada</p>
+    <br>
+    <div class="mb-3">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" name="reguser" id="username" placeholder="username" readonly="readonly" value="<?php echo $_SESSION['user']?>">
+        </div>
+    </div>
+    <br>
+    <p>Tenga en cuenta que al presionar "Eliminar" se borraran todos los registros de su cuenta.</p>
+    <br>
+    <div class="form-group">
+        <button type="submit" id="btnEnviar" class="btn btn-danger">Eliminar</button>
+    </div>
+</form>
