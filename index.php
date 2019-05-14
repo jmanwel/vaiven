@@ -35,7 +35,7 @@
                         <img high="100px" width="100px" src=image/chip.png>
                             <br>
                             <br>
-                            <p>1810 quedo muy atras, actualizate y mantenete al dia</p>
+                            <p>1810 quedo muy atras, actualizate y mantenete al dia con lo mas nuevo</p>
                             <button type="button" class="btn btn-lg btn-block btn-secondary">Listar</button>
                         </div>
                     </div>
