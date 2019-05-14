@@ -34,6 +34,7 @@
                         <br>
                         <br>
                         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        <a href="index.php" class="btn btn-secondary btn-lg btn-block" >Volver a Home</a>
                         <p class="py-4">¿No tenes cuenta? <a href="signUp.php">Click Aquí</a></p>
                         <p class="mt-5 mb-3 text-muted">&copy; 2019 - NLS</p>
                     </form>
