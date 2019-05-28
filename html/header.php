@@ -37,8 +37,10 @@
         <?php
                     
             if(!isset($_SESSION['user'])){
+				
                 echo '<a class="btn btn-primary" href="signIn.php">Sign in</a><svg width="15" height="15"></svg><a class="btn btn-success" href="signUp.php">Sign up</a>';
             }else{
+				echo "<h3 class='nav-link text-center'>Bienvenido @" . $_SESSION['user'] . "</h3>";
                 echo '<a class="btn btn-info" href="perfil.php">Perfil</a><svg width="15" height="15"></svg><a class="btn btn-danger" href="php/signout.php">Sign out</a>';
             }
 

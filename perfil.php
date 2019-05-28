@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-md-12">
                             <p class="text-center"><strong><?php echo $_SESSION['user']?></strong></p>
-                            <p class="text-center"><em>Título del perfil de usuario</em></p>
+                            <p class="text-center"><em><?php echo $_SESSION['name']?></em></p>
                         </div>
 
                         <div class="col-md-12 text-center">
@@ -49,7 +49,7 @@
                         <div class="col-md-12 text-center">
                             <br>
                             <ul class="list-group list-primary">
-                                <a href="#" class="list-group-item list-group-item-action list-group-item-success">Publicar</a>
+                                <a href="formularioPublicar.php" class="list-group-item list-group-item-action list-group-item-success">Publicar</a>
                             </ul>
                         </div>
 

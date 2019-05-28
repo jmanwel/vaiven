@@ -17,7 +17,7 @@
 
 	<body>
 
-        <?php include_once 'html/header.html';?>
+        <?php include_once 'html/header.php';?>
 
         <main role="main" style="margin-top: 7rem">
             <div class="container text-center">

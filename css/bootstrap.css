@@ -8938,6 +8938,13 @@ a.text-dark:hover, a.text-dark:focus {
   border: 0;
 }
 
+#drop_zone {
+  border: 5px solid blue;
+  width:  200px;
+  height: 100px;
+}
+
+
 .visible {
   visibility: visible !important;
 }

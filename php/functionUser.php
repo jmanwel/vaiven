@@ -30,6 +30,8 @@
             session_start();
             $_SESSION['user'] =  $sql_array['nick_user'];
             $_SESSION['rol'] = $sql_array['rol_user'];
+			$_SESSION['id'] = $sql_array['id_user'];
+			$_SESSION['name'] = $sql_array['name_user'];
             header("Location: ../index.php");
             exit();
 
